@@ -30,7 +30,14 @@ require_once("config.php");
 // $usuario->login("gjsantos","senha123");
 // echo $usuario;
 
-$aluno=new Usuario("Novo Aluno","Nova Senha");
-$aluno->insert();
+// $aluno=new Usuario("Novo Aluno","Nova Senha");
+// $aluno->insert();
+// echo $aluno;
+
+$aluno = new Usuario();
+$aluno->loadById(9);
+$aluno->update("Prof","tatata");
+
 echo $aluno;
+
 ?>
