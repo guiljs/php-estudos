@@ -26,7 +26,11 @@ require_once("config.php");
 // $search = Usuario::search("he");
 // echo json_encode($search);
 
-$usuario = new Usuario();
-$usuario->login("gjsantos","senha123");
-echo $usuario;
- ?>
+// $usuario = new Usuario();
+// $usuario->login("gjsantos","senha123");
+// echo $usuario;
+
+$aluno=new Usuario("Novo Aluno","Nova Senha");
+$aluno->insert();
+echo $aluno;
+?>
