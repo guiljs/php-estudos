@@ -17,5 +17,10 @@ if (!file_exists($fullpath)) {
 
 	fclose($file);
 }
-rename($fullpath, $dir2.DIRECTORY_SEPARATOR.$filename);
- ?>
+rename(
+	$fullpath,
+	$dir2.DIRECTORY_SEPARATOR.$filename
+);
+
+echo "Arquivo movido.";
+?>
