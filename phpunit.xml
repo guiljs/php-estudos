@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="Tests/bootstrap.php" colors="true">
+<phpunit bootstrap="Testes/bootstrap.php" colors="true">
     <php>
 
     </php>
 
     <testsuites>
         <testsuite name="Hello World Test Suite">
-            <directory>./Tests/</directory>
+            <directory>./Testes/</directory>
         </testsuite>
     </testsuites>
 
@@ -15,7 +15,7 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
-                <directory>./Tests</directory>
+                <directory>./Testes</directory>
             </exclude>
         </whitelist>
     </filter>
