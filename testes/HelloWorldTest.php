@@ -15,6 +15,6 @@ class HelloWorldTest
 
     public function testHelloWorld()
     {
-        //$this->assertEquals('Hello World', 'Hello World');
+        $this->assertEquals('Hello World', 'Hello World');
     }
 }
