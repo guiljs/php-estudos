@@ -4,7 +4,7 @@ if (!class_exists('\PHPUnit\Framework\TestCase') &&
     class_exists('\PHPUnit_Framework_TestCase')) {
     class_alias('\PHPUnit_Framework_TestCase', '\PHPUnit\Framework\TestCase');
 }
-require_once('../poo/exemplo1.php');
+require_once(dirname(__DIR__).'/poo/exemplo1.php');
 
 class ProgramadorTest extends \PHPUnit\Framework\TestCase
 {
