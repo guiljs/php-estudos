@@ -1,0 +1,16 @@
+{
+  "name": "guiljs/composer",
+  "description": "Estudos de PHP7",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Guilherme de Jesus Santos",
+      "email": "guilhermejs@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "monolog/monolog":"1.0.*"
+
+  }
+}
